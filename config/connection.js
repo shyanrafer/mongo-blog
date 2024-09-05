@@ -1,8 +1,8 @@
 // import npm packs
 const mongoose = require('mongoose');
 require('dotenv').config();
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mongo_db', {
+// do i have the following code setup properly?
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mongo_blog', {
   useNewUrlParser: true,
   // removes anitquated connecton options
   useUnifiedTopology: true,
