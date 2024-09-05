@@ -3,9 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 // do i have the following code setup properly?
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mongo_blog', {
-  useNewUrlParser: true,
-  // removes anitquated connecton options
-  useUnifiedTopology: true,
+  // removed the options here as they gave warnings in the cli
 });
 
 module.exports = mongoose.connection;

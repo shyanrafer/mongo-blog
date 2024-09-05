@@ -1,4 +1,5 @@
 // import npm packs
+require('dotenv').config();
 const express = require('express');
 const db = require('./config/connection');
 const routes = require('./routes');
