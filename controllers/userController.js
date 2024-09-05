@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const Thought = require('../models/Thought');
+const Thoughts = require('../models/Thoughts');
 
 const userController = {
   // GET all users
@@ -74,7 +74,7 @@ const userController = {
       }
 
       // remove thoughts associated with user
-      await Thought.deleteMany({ _id: { $in: deletedUser.thoughts } });
+      await Thoughts.deleteMany({ _id: { $in: deletedUser.thoughts } });
 
       res.json({ message: 'User and associated thoughts deleted!' });
     } catch (err) {
