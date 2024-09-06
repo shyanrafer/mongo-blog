@@ -37,4 +37,5 @@ Contact info: ryanshaffer1324@gmail.com <br/>
 
 
 ## Screenshot
-![alt text](image.png)
+![alt text](./assets/image.png)
+![alt text](./image-1.png)
