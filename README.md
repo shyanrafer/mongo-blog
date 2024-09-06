@@ -5,24 +5,16 @@
 This is a demonstration of the backend of an application with a noSQL database.
 
 ## Table of contents
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [Contact](#contact)
 
-## Installation
-
-
 ## Usage
-
+This project is intended for those learning how to code, especially with various database paradigms. This project utilized noSQL.
 
 ## Contributing
-
-
-## Tests
-
+This project is open to contribution. One can pull this project to their local device, make an edit, and push it up the main branch. Act fast for tha tmay not always be the case!
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br/>
@@ -41,3 +33,7 @@ Best mode of contact: Email <br/>
 Contact info: ryanshaffer1324@gmail.com <br/>
 <br/>
 [Back to top](#Mongo-blog)
+
+
+## Screenshot
+![alt text](image.png)
