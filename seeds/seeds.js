@@ -31,7 +31,7 @@ const thoughts = [
     ]
   },
   {
-    thoughtText: 'There was was a merry man...',
+    thoughtText: 'There once was a merry man...',
     username: 'techguy',
     reactions: [
       {
